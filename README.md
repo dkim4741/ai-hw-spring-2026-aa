@@ -63,21 +63,6 @@ Compare Results
 - Attack Method: FGSM
 - Attack Strength (ε): 0.15
 
-### FGSM Formula
-
-```text
-x_adv = x + ε · sign(∇J)
-```
-
-Where:
-
-- x = original image
-- ε = attack strength
-- ∇J = gradient of the loss function
-- x_adv = adversarial image
-
-A larger epsilon value generally produces a stronger attack and leads to lower classification accuracy.
-
 ## Evaluation Metrics
 
 The following metrics were used to evaluate the effectiveness of the attack:
